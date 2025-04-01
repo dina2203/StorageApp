@@ -1,4 +1,4 @@
-package com.example.storageapplab7
+package com.example.storageapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

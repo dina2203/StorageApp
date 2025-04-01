@@ -7,12 +7,14 @@
 
     <EditText
         android:id="@+id/ed_username"
+        style="@style/CustomEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username" />
 
     <EditText
         android:id="@+id/ed_password"
+        style="@style/CustomEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -21,6 +23,7 @@
 
     <EditText
         android:id="@+id/ed_confirm_pwd"
+        style="@style/CustomEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Confirm Password"
@@ -29,6 +32,7 @@
 
     <Button
         android:id="@+id/btn_create_user"
+        style="@style/CustomButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create Account"

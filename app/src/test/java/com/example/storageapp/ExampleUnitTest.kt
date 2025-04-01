@@ -1,4 +1,4 @@
-package com.example.storageapplab7
+package com.example.storageapp
 
 import org.junit.Test
 

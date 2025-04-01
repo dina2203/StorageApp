@@ -1,6 +1,7 @@
 package com.example.storageapp
 
 import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Button
@@ -34,6 +35,12 @@ class LoginActivity : AppCompatActivity() {
 
             if (inputUsername == savedUsername && inputPassword == savedPassword) {
                 Toast.makeText(this, "Успешный вход", Toast.LENGTH_SHORT).show()
+
+                // 🔄 Переход в FileActivity
+                val intent = Intent(this, FileActivity::class.java)
+                startActivity(intent)
+                finish()
+
             } else {
                 Toast.makeText(this, "Неверный логин или пароль", Toast.LENGTH_SHORT).show()
             }
